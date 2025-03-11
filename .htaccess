@@ -3,7 +3,7 @@ Options -Indexes
 RewriteEngine On
 
 # Redirect all requests to home page
-RewriteRule ^demo/img/(.*\.(jpg|jpeg|png|gif))$ - [L]
+RewriteRule ^ht_access/img/(.*\.(jpg|jpeg|png|gif))$ - [L]
 
 # Allow to only display images on home page
-RewriteRule ^demo/img/.*$ /demo/ [R=301,L]
+RewriteRule ^ht_access/img/.*$ /ht_access/ [R=301,L]
